@@ -1,7 +1,9 @@
 # SaobbyCAPTCHA文档
 ## 简介
 SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬虫，不让烦人的机器人程序给你的网络表单提交垃圾信息。 
+
 ![SaobbyCAPTCHA截图](https://s.saobby.cf/i/saobbycaptcha/p0.PNG)  
+
 使用SaobbyCAPTCHA较为简单，您只需要稍稍修改一下您的前端代码，添加验证码的窗口和JS代码，并在后端验证前端传来的密钥即可。  
 您可以去[SaobbyCAPTCHA主页](https://captcha.saobby.cf/)查看示例，如果您觉得我做的验证码窗口太丑(事实上大部分人都是这么认为的)，您也可以利用下文中的API自己做一个验证码窗口。
 ## API文档
