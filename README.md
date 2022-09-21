@@ -9,7 +9,7 @@ SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬
 ## API文档
 ### 获取验证码图片(前端使用)
 #### 请求
-* API URL: **`https://captcha.saobby.cf/api/get_image`**
+* API URL: **`https://captcha.saobby.com/api/get_image`**
 * 请求方式: **`POST`**
 * 请求载荷: **`无`**
 #### 响应
@@ -27,7 +27,7 @@ SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬
 ##### 注意:每张验证码图片的有效期只有5分钟,若5分钟内未完成验证码,则该验证码作废
 ### 获取验证码密钥(前端使用)
 #### 请求
-* API URL: **`https://captcha.saobby.cf/api/get_token`**
+* API URL: **`https://captcha.saobby.com/api/get_token`**
 * 请求方式: **`POST`**
 * 请求载荷类型: **`表单数据`**
 * 请求载荷参数: 
@@ -49,7 +49,7 @@ SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬
 ##### 注意:**每个验证码只有一次验证机会(不论对了还是错了)!**
 ##### 注意:**每个密钥的有效时间只有10分钟,超时即作废**
 ### 检查验证码密钥是否有效(后端使用)
-* API URL: **`https://captcha.saobby.cf/api/check_token`**
+* API URL: **`https://captcha.saobby.com/api/check_token`**
 * 请求方式: **`POST`**
 * 请求载荷类型: **`表单数据`**
 * 请求载荷参数: 
