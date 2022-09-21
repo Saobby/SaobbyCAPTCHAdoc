@@ -5,7 +5,7 @@ SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬
 ![SaobbyCAPTCHA截图](https://static.saobby.com/i/saobbycaptcha.png)  
 
 使用SaobbyCAPTCHA较为简单，您只需要稍稍修改一下您的前端代码，添加验证码的窗口和JS代码，并在后端验证前端传来的密钥即可。  
-您可以去[SaobbyCAPTCHA主页](https://captcha.saobby.cf/)查看示例(感谢[WuX-UI](https://wux-ui.tk/))，如果您觉得我做的验证码窗口太丑(事实上大部分人都是这么认为的)，您也可以利用下文中的API自己做一个验证码窗口。
+您可以去[SaobbyCAPTCHA主页](https://captcha.saobby.com/)查看示例(感谢[WuX-UI](https://wux-ui.tk/))，如果您觉得我做的验证码窗口太丑(事实上大部分人都是这么认为的)，您也可以利用下文中的API自己做一个验证码窗口。
 ## API文档
 ### 获取验证码图片(前端使用)
 #### 请求
