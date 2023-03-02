@@ -17,12 +17,14 @@ SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬
 * 响应包含参数: 
   * **`captcha_id`**: 类型:**`字符串`**: 验证码唯一ID,获取验证码token时会用到
   * **`captcha_img`**: 类型:**`字符串`**: 验证码图片Base64值,可直接塞进`<img>`标签的`src`属性中
-  * **`captcha_lens`**: 类型:**`整型数`**: 验证码的字数
+  * **`captcha_lens`**: 类型:**`整型数`**: 验证码的字数  
+  * **`tip_img`**: 类型:**`字符串`**: 验证码提示文字图片Base64
 * 响应示例: 
   *  {
   *    "captcha_id":"GBXiOvIfJ30Kn9Stn0H5DxCgT6d3aVTAXysMhF9D91n7NGDQyRUcf3t1CYRE4leu", 
   *    "captcha_img":"data:image/png;base64,iVBORw0KGgoAAAAN......",
-  *    "captcha_lens":5
+  *    "captcha_lens":5, 
+  *    "tip_img":"..."
   *  }
 ##### 注意:每张验证码图片的有效期只有5分钟,若5分钟内未完成验证码,则该验证码作废
 ### 获取验证码密钥(前端使用)
