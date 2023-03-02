@@ -1,4 +1,4 @@
-## 注意: API域名已修改为 captcha.saobby.tk
+##### 注意: API域名已修改为 captcha.saobby.tk
 # SaobbyCAPTCHA文档
 ## 简介
 SaobbyCAPTCHA是一个**人机验证**服务，它可以准确识别机器人爬虫，不让烦人的机器人程序给你的网络表单提交垃圾信息。 
